@@ -1,10 +1,7 @@
 # nLCplotSSH
 Automated generation of pump plots after each measurement for Thermo easy-nLCs (tested with easy-nLC 1000) via SSH connection.
 
-<p align="center">
-    <img height="60%" width="40%" src="https://user-images.githubusercontent.com/34959927/192757773-aa028026-5b03-49b7-a45c-fcf99e2b4933.png">
-</p>
-
+![nLCplotSSH](https://user-images.githubusercontent.com/34959927/192791307-c507a858-ef4f-416e-b732-535f63439240.png)
 
 ## Requirements
 1. Install [Python 3.8](https://www.python.org/downloads/release/python-3810/) depending on your Windows version (32/64bit)
