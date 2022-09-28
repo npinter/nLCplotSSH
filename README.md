@@ -1,5 +1,5 @@
 # nLCplotSSH
-Automated generation of pump plots after each measurement for Thermo easy-nLC.
+Automated generation of pump plots after each measurement for Thermo easy-nLCs (tested with easy-nLC 1000) via SSH connection.
 
 ![20220927-213819063-wash1_E1](https://user-images.githubusercontent.com/34959927/192757773-aa028026-5b03-49b7-a45c-fcf99e2b4933.png)
 
@@ -39,3 +39,13 @@ pip install paramiko seaborn matplotlib pandas numpy
 
 
 11. Press `Ok`. Plots will be automatically generated after each measurement.
+
+## Optional arguments
+```
+argument          default value           description
+-ip / --ip        "172.16.0.105"          easy-nLC IP address
+-u  / --user      "hplc"                  User name for SSH connection
+-p  / --password  "hplc"                  Password for SSH connection
+-lp / --log_path  "/home/admin/batchLog"  Log path in easy-nLC filesystem
+-o  / --out       "E:\_nLCplotsSSH"       Path for plot output
+```
