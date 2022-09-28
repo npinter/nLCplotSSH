@@ -33,4 +33,7 @@ pip install paramiko seaborn matplotlib pandas numpy
 ![grafik](https://user-images.githubusercontent.com/34959927/192755681-83136c8e-35b3-4ced-b6c0-40c4de3a2bf1.png)
 
 10. In the `Settings` tab select `1 hour` at `Stop the task if it runs longer than:`
+![grafik](https://user-images.githubusercontent.com/34959927/192757188-793b37f8-1514-484e-9052-8c5d4ed18ffa.png)
+
+
 11. Press `Ok`. Plots will be automatically generated after each measurement.
