@@ -4,8 +4,8 @@ Automated generation of pump plots after each measurement for Thermo easy-nLCs (
 ![nLCplotSSH](https://user-images.githubusercontent.com/34959927/192791307-c507a858-ef4f-416e-b732-535f63439240.png)
 
 ## Requirements
-1. Install [Python 3.8](https://www.python.org/downloads/release/python-3810/) depending on your Windows version (32/64bit)
-2. Install the following Python packages
+1. Install [Python 3.8](https://www.python.org/downloads/release/python-3810/) depending on your Windows version (32/64bit). **Note:** Add Python to Windows PATH variable.
+2. Open command prompt (`cmd.exe`) or Windows PowerShell and install the following Python packages via pip:
 ```
 pip install paramiko seaborn matplotlib pandas numpy
 ```
@@ -24,7 +24,7 @@ pip install paramiko seaborn matplotlib pandas numpy
 6. Select `Start a program` </br>
 ![grafik](https://user-images.githubusercontent.com/34959927/192748604-e3e077c4-5e4e-4e66-b4f6-e37cebe1b03d.png)
 
-7. Browse the path to nLCplotSSH.py`` and add the arguments `-ip "IP:ADRESS:OF:NLC" -o "D:\nLC_plots"` </br>
+7. Browse the path to nLCplotSSH.py`` and add the arguments `-ip "IP.ADRESS.OF.NLC" -o "D:\nLC_plots"` </br>
 ![grafik](https://user-images.githubusercontent.com/34959927/192753822-4288023f-9951-4492-8694-d7de9038f7d4.png)
 
 8. Check `Open the Properties dialog for this task when I click Finish` and press Finish </br>
